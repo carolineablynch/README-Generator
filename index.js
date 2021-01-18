@@ -8,7 +8,14 @@ inquirer.prompt(
         {
             type: 'input',
             message="What is the title of the project?",
-            name:'title',
+            name:'Title',
+            ///Validating user input, requiring an input from user 
+            validate: (value) =>{ if(value){return true} else {return 'Please enter a value to continue'}},
+        },
+        {
+            type: 'input',
+            message="What is the description of the project?",
+            name:'Description',
             ///Validating user input, requiring an input from user 
             validate: (value) =>{ if(value){return true} else {return 'Please enter a value to continue'}},
         },
