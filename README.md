@@ -14,6 +14,8 @@ This application can be used by running node index.js from the command line of t
 
 [Click here to see the application use] (https://docs.google.com/document/d/1Fmoa-Z_a6OhdPTOgioOyjxb2glfDacV_enTFjZWxV3k/edit?usp=sharing}
 
+There is a sample README.md file generated from this application in the repo called "myfirstproject.md"
+
 ## Contributing 
 
 Please contribute to my application and feel free to contact me directly. 
