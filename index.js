@@ -83,7 +83,7 @@ inquirer.prompt(
     Github,
     Email
 })=>{
-const template = `#${title}
+const template = `#${Title}
 
 # Table of Contents
 
@@ -108,19 +108,15 @@ ${Contributing}
 ## Testing 
 ${Testing}
 
+# Questions 
+* Github:${Github}
+* Email:${Email}`;
 
-
-
-
-
+createNewFile(Title,template);
 }
+);
 
 
 
 
-})
 
-
-
-
-)
