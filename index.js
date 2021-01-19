@@ -109,7 +109,8 @@ ${Contributing}
 ${Testing}
 
 # Questions 
-* Github:${Github}
+Please feel free to reach out to me with questions using the below:
+* Github:${Github} 
 * Email:${Email}`;
 
 createNewFile(Title,template);
