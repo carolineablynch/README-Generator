@@ -72,9 +72,55 @@ inquirer.prompt(
         }
 
     ]
-).then(
+).then(({
+    Title,
+    Description,
+    Installation,
+    Usage,
+    License,
+    Contributing,
+    Testing,
+    Github,
+    Email
+})=>{
+const template = `#${title}
+
+# Table of Contents
+
+* [Description] (#Description)
+* [Installation] (#Installation)
+* [Usage] (#Usage)
+* [License] (#License)
+* [Contributing] (#Contributing)
+* [Testing] (#Testing)
+* [Questions]
+
+#Description
+${Description}
+## Installation
+${Installation}
+## Usage
+${Usage}
+## License 
+${License}
+## Contributing 
+${Contributing}
+## Testing 
+${Testing}
 
 
 
-    
+
+
+
+}
+
+
+
+
+})
+
+
+
+
 )
