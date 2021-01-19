@@ -46,6 +46,35 @@ inquirer.prompt(
             name:'Testing',
             ///Validating user input, requiring an input from user 
             validate: (value) =>{ if(value){return true} else {return 'Please enter a value to continue'}},
-        }   
+        },
+        {   
+            type: 'list',
+            message="What license did you use for your project?",
+            name:'License',
+            choices: ['MIT License', 'GNU GPLv3', 'Apache License','Unilicense', 'None'],
+            ///Validating user input, requiring an input from user 
+            validate: (value) =>{ if(value){return true} else 
+            {return 'Please enter a value to continue'}},
+        },
+        {
+            type: 'input',
+            message: 'Github Username',
+            name: 'Github',
+            alidate: (value) =>{ if(value){return true} else 
+            {return 'Please enter a value to continue'}}, 
+        },
+        {
+            type: 'input',
+            message: 'Email Address',
+            name: 'Email',
+            alidate: (value) =>{ if(value){return true} else 
+            {return 'Please enter a value to continue'}}, 
+        }
+
     ]
+).then(
+
+
+
+    
 )
