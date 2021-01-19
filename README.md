@@ -12,6 +12,8 @@ In order to run this application, you will want to install the packages required
 
 This application can be used by running node index.js from the command line of the terminal. The user should then fill in the prompts asked in the command line with the relevant information for the project. Once completed, the application will automatically generate a README file, filled in with the information input by the user. 
 
+[Click here to see the application use] (https://docs.google.com/document/d/1Fmoa-Z_a6OhdPTOgioOyjxb2glfDacV_enTFjZWxV3k/edit?usp=sharing}
+
 ## Contributing 
 
 Please contribute to my application and feel free to contact me directly. 
