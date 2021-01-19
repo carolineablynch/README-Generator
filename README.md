@@ -29,4 +29,5 @@ MIT License
 Please don't hesitate to reach out to me: 
 
 https://github.com/carolineablynch
+<br></br>
 carolineablynch@gmail.com 
